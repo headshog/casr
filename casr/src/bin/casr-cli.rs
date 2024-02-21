@@ -457,6 +457,16 @@ fn build_tree_report(
         tree.collapse_item(row);
     }
 
+    if !report.csharp_report.is_empty() {
+        row = tree
+            .insert_container_item("CsharpReport".to_string(), Placement::After, row)
+            .unwrap();
+        report.csharp_report.iter().for_each(|e| {
+            tree.insert_item(e.clone(), Placement::LastChild, row);
+        });
+        tree.collapse_item(row);
+    }
+
     if !report.source.is_empty() {
         row = tree
             .insert_container_item("Source".to_string(), Placement::After, row)
@@ -641,6 +651,10 @@ fn build_slider_report(
 
     if !report.js_report.is_empty() {
         select.add_item("JsReport", report.js_report.join("\n"));
+    }
+
+    if !report.csharp_report.is_empty() {
+        select.add_item("CsharpReport", report.csharp_report.join("\n"));
     }
 
     if !report.source.is_empty() {

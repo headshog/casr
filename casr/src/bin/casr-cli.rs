@@ -459,7 +459,7 @@ fn build_tree_report(
 
     if !report.csharp_report.is_empty() {
         row = tree
-            .insert_container_item("CsharpReport".to_string(), Placement::After, row)
+            .insert_container_item("CSharpReport".to_string(), Placement::After, row)
             .unwrap();
         report.csharp_report.iter().for_each(|e| {
             tree.insert_item(e.clone(), Placement::LastChild, row);
@@ -654,7 +654,7 @@ fn build_slider_report(
     }
 
     if !report.csharp_report.is_empty() {
-        select.add_item("CsharpReport", report.csharp_report.join("\n"));
+        select.add_item("CSharpReport", report.csharp_report.join("\n"));
     }
 
     if !report.source.is_empty() {

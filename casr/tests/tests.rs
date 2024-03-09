@@ -5731,7 +5731,7 @@ fn test_casr_csharp() {
             &dotnet_path.to_str().unwrap(),
             "run",
             "--project",
-            &paths[1],
+            &paths[4],
         ])
         .output()
         .expect("failed to start casr-csharp");

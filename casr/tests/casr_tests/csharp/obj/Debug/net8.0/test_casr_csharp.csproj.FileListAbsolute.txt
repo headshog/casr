@@ -1,0 +1,15 @@
+/fuzz/casr/tests/casr_tests/csharp/bin/Debug/net8.0/test_casr_csharp
+/fuzz/casr/tests/casr_tests/csharp/bin/Debug/net8.0/test_casr_csharp.deps.json
+/fuzz/casr/tests/casr_tests/csharp/bin/Debug/net8.0/test_casr_csharp.runtimeconfig.json
+/fuzz/casr/tests/casr_tests/csharp/bin/Debug/net8.0/test_casr_csharp.dll
+/fuzz/casr/tests/casr_tests/csharp/bin/Debug/net8.0/test_casr_csharp.pdb
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/test_casr_csharp.GeneratedMSBuildEditorConfig.editorconfig
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/test_casr_csharp.AssemblyInfoInputs.cache
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/test_casr_csharp.AssemblyInfo.cs
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/test_casr_csharp.csproj.CoreCompileInputs.cache
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/test_casr_csharp.sourcelink.json
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/test_casr_csharp.dll
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/refint/test_casr_csharp.dll
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/test_casr_csharp.pdb
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/test_casr_csharp.genruntimeconfig.cache
+/fuzz/casr/tests/casr_tests/csharp/obj/Debug/net8.0/ref/test_casr_csharp.dll

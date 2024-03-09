@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "SYzmiMIOSeqZ3VrOt8Iuc3zQhERKbzALV9p+WiNhBgo43UoJn0YOmm6bBCB+lRV0fH8Rt0bYGd4OAEAMWXiIfg==",
+  "success": true,
+  "projectFilePath": "/fuzz/casr/tests/casr_tests/csharp/test_casr_csharp.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
